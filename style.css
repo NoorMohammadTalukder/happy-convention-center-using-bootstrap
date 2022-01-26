@@ -1,0 +1,83 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+h4 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.nav-items,
+.slider,
+.moment,
+.package {
+    overflow-x: hidden;
+}
+
+
+/* nav bar */
+
+.nav-head {
+    font-size: 40px;
+}
+
+
+/* package */
+
+.package-normal {
+    transform: scale(0.8);
+}
+
+.category-hot {
+    background-color: rgba(49, 8, 231, 0.582);
+}
+
+.hot-icon {
+    position: absolute;
+    top: -6px;
+    right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-text {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer1 {
+    width: 50%;
+}
+
+.footer2 {
+    width: 50%;
+}
+
+
+/* media query */
+
+
+/* mobile */
+
+@media only screen and (max-width:688px) {
+    .slider-heading {
+        font-size: 12px;
+    }
+    .slider-text {
+        font-size: 6px;
+    }
+    .slider-btn {
+        padding: 0 2px !important;
+        margin: 0 !important;
+    }
+    .btn-text {
+        font-size: 8px;
+    }
+}
